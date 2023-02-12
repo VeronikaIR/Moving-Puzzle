@@ -1,14 +1,7 @@
 
 body, html {
-  height: 100%;
-
-  /*background-image: url("../../Laptop-clipart-transparent-1.png");*/
   background-image: url("/../../../moving-puzzle-game/tumblr_om91agCwBL1rnbw6mo1_1280.gif");
-
-  /* Full height */
   height: 100%;
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,7 +100,6 @@ input[type="submit"]:hover {
   background-color: lightpink;
   color: darkred;
   padding: 12px 20px;
-  /*border: none;*/
   border-radius: 17px;
   cursor: pointer;
   margin-left: 15px;
@@ -123,6 +115,5 @@ a {
 
 .buttons-register-login{
   margin-top: 30px;
-  /*margin-left: 30px;*/
 }
 

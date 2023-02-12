@@ -1,13 +1,3 @@
-body, html {
-    height: 100%;
-    background-image: url("/../../../moving-puzzle-game/tumblr_om91agCwBL1rnbw6mo1_1280.gif");
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
 .timer {
     border: 5px solid deeppink;
 
