@@ -1,0 +1,124 @@
+body, html {
+    height: 100%;
+    background-image: url("/../../../moving-puzzle-game/tumblr_om91agCwBL1rnbw6mo1_1280.gif");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.timer {
+    border: 5px solid deeppink;
+
+
+    border-radius: 17px;
+    background-color: papayawhip;
+    color: deeppink;
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#time {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+
+.popup-box {
+    font-family: 'Roboto Condensed', sans-serif;
+
+    width: 400px;
+    height: 150px;
+    border: 5px solid deeppink;
+
+
+    border-radius: 17px;
+    background-color: papayawhip;
+    color: deeppink;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 5000;
+    font-size: 20px;
+}
+
+
+#puzzle {
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 600px;
+    height: 600px;
+    border: 18px solid #2C3E50;
+    border-radius: 10px;
+    background-color: #2C3E50;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.puzzle-piece {
+    position: absolute;
+    background-color: #7BC8F3;
+    color: #1F1F1F;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 31%;
+    height: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 26px;
+    padding: 20px 30px;
+    border-color: deeppink;
+    border-radius: 17px;
+    background-color: papayawhip;
+    color: deeppink;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 170px;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+a {
+    color: deeppink;
+    text-decoration: none;
+}
+
+
+button:hover {
+    background-color: slategray;
+}
+
+.puzzle-buttons {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
